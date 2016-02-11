@@ -1,2 +1,53 @@
+$navbar-default-bg: #0C1754;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float:left;
+  font-size:1.5em;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+#logo:hover {
+  color:aqua;
+  text-decoration:none;
+}
+
+.center {
+  text-align: center;
+  
+}
+
+.jumbotron {
+  background-image: asset-url('beacondit.jpg');
+  background-size: cover;
+  height: 700px;
+}
+
+.jumbotron h1 {
+  color: #0C1754;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 4.0em;
+}
+  
+.btn-xlarge {
+  font-size: 2.0em;
+  background-color: #d0c9af;
+  text-fill-color: #0C1754;  
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  
+}
+
+footer a:hover {
+  color: #222;
+}
