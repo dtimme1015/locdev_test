@@ -17,7 +17,7 @@ $navbar-default-bg: #0C1754;
 
 .center {
   text-align: center;
-  
+
 }
 
 .jumbotron {
@@ -33,11 +33,11 @@ $navbar-default-bg: #0C1754;
   margin-bottom: 50px;
   font-size: 4.0em;
 }
-  
+
 .btn-xlarge {
   font-size: 2.0em;
   background-color: #d0c9af;
-  text-fill-color: #0C1754;  
+  text-fill-color: #0C1754;
 }
 
 .article-meta-details {
@@ -66,7 +66,18 @@ $navbar-default-bg: #0C1754;
 
 .listing {
   list-style: none;
-  padding-left: 0;  
+  padding-left: 0;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 
 footer {
@@ -74,7 +85,7 @@ footer {
   padding-top: 8px;
   border-top: 1px solid #0C1754;
   color: #777;
-  
+
 }
 
 footer a:hover {
